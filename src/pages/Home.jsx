@@ -14,7 +14,7 @@ export const Home = () => {
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        const data = await fetch('http://localhost:5200/api/hack/create', {
+        const data = await fetch('https://netlifx-server.herokuapp.com/api/hack/create', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
