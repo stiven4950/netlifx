@@ -16,7 +16,7 @@ export const Home = () => {
         e.preventDefault();
         // https://netlifx-server.herokuapp.com/api/hack/create
         
-        const data = await fetch('https://netlifx-9a043-default-rtdb.firebaseio.com/hacks.json', {
+        const data = await fetch('https://netflix-a3d8a-default-rtdb.firebaseio.com/hacks.json', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
